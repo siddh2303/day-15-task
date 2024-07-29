@@ -1,8 +1,6 @@
 pipeline {
     agent any
     environment {
-        DOCKER_USERNAME = 'siddhpatel'
-        DOCKER_PASSWORD = 'siddh2303'
         REPO_URL = 'https://github.com/siddh2303/day-15-task.git'
         IMAGE_NAME = 'siddhpatel/java-app-build'
     }
